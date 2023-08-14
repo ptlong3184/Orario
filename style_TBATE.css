@@ -1,0 +1,157 @@
+*{
+    padding:5px;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    color: white;
+}
+img{
+    cursor: pointer;
+}
+
+#header{
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#menu {
+    list-style:none;
+    display: flex;
+}
+#menu .item {
+    margin: 15px 25px 0;
+}
+#menu .item a {
+    color:#626A67;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+#banner {
+    width: 100%;
+    height: 762px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0 133px;
+    position: relative;
+    background-color: rgb(64, 64, 64);
+}
+#banner .box-left ,#banner .box-right {
+    width: 45%;
+}
+#banner  .box-left h2 {
+    font-size:68px;
+    margin-top:45px;
+    color:#fff;
+}
+#banner .box-left p{
+    font-style: italic;
+    margin-left: 183px;
+    font-size: 16px;
+    color: white;
+}
+
+#banner .box-right .rating .item {
+    position: relative;
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+#banner .box-right .price .money h3,h4 {
+    font-size: 30px ;
+}
+#banner .box-right .rating .item p{
+    color: white;
+}
+
+button.item{
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 80px;
+    height: 38px;
+    margin-left: 10px;
+    margin-top:20px;
+    color:#fff;
+    cursor: pointer;
+}
+.buy-add {
+    display: flex;
+}
+.buy-button{
+    padding-left: 100px;
+}
+.add_to_cart{
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 170px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top:20px;
+    color:#fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+#banner .box-right a{
+    text-decoration: none;
+
+}
+.buy{
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 170px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top:20px;
+    color:#fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+#product-info .product_info_details .product_details .details{
+    background: rgb(140, 140, 140);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.dts1{
+    display: flex;
+    margin-bottom: 6px;
+}
+.qwer{
+    color: Gray;
+    font-size: 23px;
+    box-sizing: border-box;
+    padding-right: 19px;
+}
+p{
+    color: Gray;
+    font-size: 20px;
+    padding: 7px;
+}
+.title1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 1em;
+    background: rgb(140, 140, 140);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+
+
+
